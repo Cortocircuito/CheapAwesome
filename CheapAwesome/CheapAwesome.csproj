@@ -12,6 +12,7 @@
   <ItemGroup>
     <Folder Include="Application\" />
     <Folder Include="Domain\" />
+    <Folder Include="ServiceCollectionExtensions\" />
   </ItemGroup>
 
 
