@@ -17,7 +17,7 @@ namespace CheapAwesome.Controllers
     [Route("[controller]")]
     public class AvailabilityController : ControllerBase
     {
-        private readonly string _code = "aWH1EX7ladA8C/oWJX5nVLoEa4XKz2a64yaWVvzioNYcEo8Le8caJw==";
+        private readonly string _code = "aWH1EX7ladA8C/oWJX5nVLoEa4XKz2a64yaWVvzioNYcEo8Le8caJw=="; // it would be better if this code are saved in a enviroment variable in the final server
 
         private readonly ILogger<AvailabilityController> _logger;
         private readonly RefitClientFactory _refitClientFactory;
